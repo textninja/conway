@@ -6,16 +6,22 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "NODE_ENV=test jest"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@swc/core": "^1.2.215",
+    "@swc/jest": "^0.2.21",
+    "@testing-library/react": "^13.3.0",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
     "vite": "^3.0.0"
   },
   "author": "Joe Taylor <joe@textninja.net>"
